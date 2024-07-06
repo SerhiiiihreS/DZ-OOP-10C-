@@ -5,7 +5,7 @@ Sguare::Sguare(int s)
 	side = s;
 }
 
-void Sguare::Print()
+void Sguare::print()
 {
 	cout << "side ->" << side;
 }

@@ -7,6 +7,6 @@ class Sguare
 	int side;
 public:
 	Sguare(int s);
-	void Print();
+	void print();
 };
 

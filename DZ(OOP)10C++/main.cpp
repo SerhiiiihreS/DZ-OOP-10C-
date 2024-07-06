@@ -7,4 +7,5 @@
 int main() {
 	CircleSguare d(5, 2);
 	d.Сontrol();
+	d.Print();
 }
