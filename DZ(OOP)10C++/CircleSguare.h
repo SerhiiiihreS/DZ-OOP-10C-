@@ -8,8 +8,7 @@ class CircleSguare :public Sguare,public Circle
 	int radius;
 	int side;
 public:
-	CircleSguare(int r, int s) :Sguare(s), Circle(r) {
-	};
+	CircleSguare(int r, int s) :Sguare(s), Circle(r) {};
 	void Сontrol() {
 		if ((radius * 2) < side) {
 			cout << "The circle is included in the task square!" << endl;
